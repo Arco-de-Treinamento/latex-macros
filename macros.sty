@@ -1,21 +1,13 @@
-%
-%   Comandos (macros) utilizados para auxiliar na escrita dos materiais
-%
+% Copyright (c) 2020 Matemática Elementar
+% Copyright (c) 2024 Arco de Treinamento
 
+% Comandos (macros) utilizados para auxiliar na escrita dos materiais
 
-
-%
-%   Comandos para elementos textuais técnicos
-%
-
+% Comandos para elementos textuais técnicos
 \newcommand{\link}[2]{\href{#1}{\tt{#2}}}
 \newcommand{\khan}[2]{\href{#1}{\tt{#2}}}
 
-
-%
-%   Comandos para ajudar na digitação de texto
-%
-
+% Comandos para ajudar na digitação de texto
 \newcommand{\prn}[1]{\left(#1\right)}
 \newcommand{\paren}{\prn}
 \newcommand{\parenteses}{\prn}
@@ -46,11 +38,7 @@
 \let\emp\em                             % Definição do \em copiada para \emp
 \DeclareTextFontCommand{\emph}{\emp}    % Redeclaração do comando \emph usando o novo \emp
 
-
-%
-%   Elementos Textuais
-%
-
+% Elementos Textuais
 \newcommand{\abreaspas}{``}
 \newcommand{\fechaaspas}{''}
 \newcommand{\entreaspas}{\enquote}
@@ -60,11 +48,7 @@
 \newcommand{\linha}{^{\prime}}
 \newcommand{\contrabarra}{\textbackslash}
 
-
-%
-%   Elementos Textuais para o modo Matemático
-%
-
+% Elementos Textuais para o modo Matemático
 \newcommand{\diferente}{\neq}
 \newcommand{\maiorque}{\gt}
 \newcommand{\menorque}{\lt}
@@ -77,11 +61,7 @@
 \newcommand{\corta}{\cancel}
 \newcommand{\cancela}{\cancel}
 
-
-%
-%   Comandos para Teoria de Conjuntos
-%
-
+% Comandos para Teoria de Conjuntos
 \newcommand{\conjunto}[1]{\left\{#1\right\}}
 \newcommand{\unitario}{\conjunto}
 \newcommand{\talque}{\;;\;}
@@ -111,10 +91,7 @@
 % Deprecado
 \newcommand{\set}{\conjunto}
 
-%
-%    Operações entre conjuntos
-%
-
+% Operações entre conjuntos
 \newcommand{\uniao}{\cup}
 \newcommand{\intersecao}{\cap}
 \newcommand{\inter}{\intersecao}
@@ -130,10 +107,7 @@
 \newcommand{\minus}{\menos}
 \newcommand{\powerset}{\partes}
 
-%
-%   Símbolos para conjuntos mais utilizados
-%
-
+% Símbolos para conjuntos mais utilizados
 \newcommand{\vazio}{\emptyset}
 \newcommand{\universo}{\mathcal U}
 \newcommand{\naturais}{\mathbb N}
@@ -176,11 +150,7 @@
 \newcommand{\reals}{\reais}
 \newcommand{\preais}{\reais^*_+}
 
-
-%
-%   Funções gerais
-%
-
+% Funções gerais
 \newcommand{\de}{:}
 \newcommand{\para}{\to}
 \newcommand{\pra}{\para}
@@ -195,11 +165,7 @@
 \newcommand{\fcomp}{\circ}
 \newcommand{\func}{\funcao}
 
-
-%
 %  Funções reais
-%
-
 \newcommand{\raiz}{\sqrt}
 \newcommand{\modulo}[1]{\left|#1\right|}
 \DeclareMathOperator{\sen}{sen}
@@ -212,11 +178,7 @@
 \renewcommand{\sin}{\sen}
 \newcommand{\abs}{\modulo}
 
-
-%
-%   Lógica
-%
-
+% Lógica
 % Usados no modo matemático e no texto
 \newcommand{\implica}{\implies}
 \newcommand{\sse}{\iff}
@@ -229,22 +191,6 @@
 \newcommand{\elogico}{\land}
 \newcommand{\naologico}{\neg}
 
-
-%
-%   Outros
-%
-
+% Outros
 \newcommand{\seg}{\overline}
 \newcommand{\degree}{^{\circ}}
-
-
-%
-%   Referências (deprecadas)
-%
-
-\newcommand{\inref}[1]{\defref{def:in}{#1}}
-\newcommand{\emptysetref}[1]{\defref{def:emptyset}{#1}}
-\newcommand{\powersetref}[1]{\defref{def:powerset}{#1}}
-\newcommand{\complementref}[1]{\defref{def:complementar}{#1}}
-\newcommand{\homeworkref}[1]{\ref{#1}}
-\newcommand{\defref}[2]{\hyperref[#1]{#2}}
