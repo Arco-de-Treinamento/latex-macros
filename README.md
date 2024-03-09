@@ -1,5 +1,5 @@
 <div align="center">
-  <img src = "assets/images/gohan.jpg" width="200px">
+  <img src = "assets/gohan.jpg" width="360px">
 </div>
 
 <h1 align = "center">
